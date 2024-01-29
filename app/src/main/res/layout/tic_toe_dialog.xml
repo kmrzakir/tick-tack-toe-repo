@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:cardCornerRadius="20dp"
+        android:padding="20dp"
+        android:elevation="100dp">
+
+        <TextView
+            android:id="@+id/show_result_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="congralution"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:layout_gravity="center"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/play_again_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="30dp"
+            android:text="Playagain"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@color/purple_200"
+            android:padding="15dp"/>
+    </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
